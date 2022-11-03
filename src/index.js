@@ -1,29 +1,29 @@
 import './style.css';
+import { addTaskToArray } from './modules/add-task.js';
+import { getFromLocalStorage } from './modules/localStorage.js';
 
-const tasks = [
-  {
-    index: 0,
-    description: 'First task',
-    completed: true,
-  },
-  {
-    index: 1,
-    description: 'Second task',
-    completed: true,
-  },
-  {
-    index: 2,
-    description: 'Third task',
-    completed: true,
-  },
-];
+const addInput = document.querySelector('.add-new');
+const addBtn = document.querySelector('.add-new-btn');
 
-const displyList = () => {
-  let result = '';
-  tasks.forEach((task) => {
-    result += `<li><input type="checkbox" id="" name="" value=""> ${task.description}</li> <hr>`;
-  });
-  document.getElementById('tasks').innerHTML = result;
-};
+export let tasksArr =[];
 
-displyList();
+if (localStorage.getItem("tasks")) {
+  tasksArr = JSON.parse(localStorage.getItem("tasks"));
+}
+
+getFromLocalStorage();
+
+
+addBtn.addEventListener('click',()=>{
+if (addInput.value !== ""){
+  addTaskToArray(addInput.value);
+  addInput.value = "";
+}
+})
+
+
+
+
+
+
+
