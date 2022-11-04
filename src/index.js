@@ -1,29 +1,14 @@
 import './style.css';
-import { addTaskToArray } from './modules/add-task.js';
-import { getFromLocalStorage } from './modules/localStorage.js';
+/* eslint-disable import/no-cycle */
+import { displayTasks } from './modules/display-task.js';
+// Initial References
+export const newTaskInput = document.querySelector('#new-task input');
 
-const addInput = document.querySelector('.add-new');
-const addBtn = document.querySelector('.add-new-btn');
-
-export let tasksArr =[];
-
-if (localStorage.getItem("tasks")) {
-  tasksArr = JSON.parse(localStorage.getItem("tasks"));
-}
-
-getFromLocalStorage();
-
-
-addBtn.addEventListener('click',()=>{
-if (addInput.value !== ""){
-  addTaskToArray(addInput.value);
-  addInput.value = "";
-}
-})
-
-
-
-
-
-
-
+// Disable Edit Button
+export const disableButtons = (bool) => {
+  const editButtons = document.getElementsByClassName('edit');
+  Array.from(editButtons).forEach((element) => {
+    element.disabled = bool;
+  });
+};
+displayTasks();
