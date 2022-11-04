@@ -1,3 +1,4 @@
+"use strict";
 /*
  * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
  * This devtool is neither made for production nor for readable output files.
@@ -6,9 +7,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-/******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	var __webpack_modules__ = ({
+(self["webpackChunkto_do_list"] = self["webpackChunkto_do_list"] || []).push([["main"],{
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/style.css":
 /*!*************************************************************!*\
@@ -16,7 +15,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27100%25%27 height=%27100%25%27 viewBox=%270 0 1200 800%27%3E%3Cdefs%3E%3CradialGradient id=%27a%27 cx=%270%27 cy=%27800%27 r=%27800%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%23ffb05c%27/%3E%3Cstop offset=%271%27 stop-color=%27%23ffb05c%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27b%27 cx=%271200%27 cy=%27800%27 r=%27800%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%2337ff4c%27/%3E%3Cstop offset=%271%27 stop-color=%27%2337ff4c%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27c%27 cx=%27600%27 cy=%270%27 r=%27600%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%23a924ff%27/%3E%3Cstop offset=%271%27 stop-color=%27%23a924ff%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27d%27 cx=%27600%27 cy=%27800%27 r=%27600%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%23FDFF6E%27/%3E%3Cstop offset=%271%27 stop-color=%27%23FDFF6E%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27e%27 cx=%270%27 cy=%270%27 r=%27800%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%23FF4C49%27/%3E%3Cstop offset=%271%27 stop-color=%27%23FF4C49%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27f%27 cx=%271200%27 cy=%270%27 r=%27800%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%230CF%27/%3E%3Cstop offset=%271%27 stop-color=%27%230CF%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill=%27url%28%23a%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23b%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23c%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23d%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23e%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23f%29%27 width=%271200%27 height=%27800%27/%3E%3C/svg%3E */ \"data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27100%25%27 height=%27100%25%27 viewBox=%270 0 1200 800%27%3E%3Cdefs%3E%3CradialGradient id=%27a%27 cx=%270%27 cy=%27800%27 r=%27800%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%23ffb05c%27/%3E%3Cstop offset=%271%27 stop-color=%27%23ffb05c%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27b%27 cx=%271200%27 cy=%27800%27 r=%27800%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%2337ff4c%27/%3E%3Cstop offset=%271%27 stop-color=%27%2337ff4c%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27c%27 cx=%27600%27 cy=%270%27 r=%27600%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%23a924ff%27/%3E%3Cstop offset=%271%27 stop-color=%27%23a924ff%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27d%27 cx=%27600%27 cy=%27800%27 r=%27600%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%23FDFF6E%27/%3E%3Cstop offset=%271%27 stop-color=%27%23FDFF6E%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27e%27 cx=%270%27 cy=%270%27 r=%27800%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%23FF4C49%27/%3E%3Cstop offset=%271%27 stop-color=%27%23FF4C49%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27f%27 cx=%271200%27 cy=%270%27 r=%27800%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%230CF%27/%3E%3Cstop offset=%271%27 stop-color=%27%230CF%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill=%27url%28%23a%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23b%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23c%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23d%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23e%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23f%29%27 width=%271200%27 height=%27800%27/%3E%3C/svg%3E\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"\\r\\nbody {\\r\\n  font-family: Georgia, 'Times New Roman', Times, serif;\\r\\n  font-size: 16px;\\r\\n  background-color: #FDFF6E;\\r\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\r\\n  background-attachment: fixed;\\r\\n  background-size: cover;\\r\\n}\\r\\n\\r\\n.card {\\r\\n  /* Add shadows to create the \\\"card\\\" effect */\\r\\n  box-shadow: 10px 20px 20px 10px rgba(10, 10, 10, 0.2);\\r\\n  transition: 0.3s;\\r\\n  width: 60%;\\r\\n  border-radius: 5px;\\r\\n  z-index: 9999;\\r\\n  background-color: antiquewhite;\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n}\\r\\n\\r\\n/* On mouse-over, add a deeper shadow */\\r\\nli {\\r\\n  box-shadow: rgba(202, 201, 201, 0.4) 0px 30px 90px;\\r\\n  height: 1rem;\\r\\n  padding: 1rem;\\r\\n}\\r\\n\\r\\n.add-new {\\r\\n  background-color: rgba(250, 235, 215, 0.847);\\r\\n  height: 2rem;\\r\\n  margin: 1rem 2rem;\\r\\n  border: #f00;\\r\\n  padding: 0.5rem;\\r\\n  border-radius: 5px;\\r\\n  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;\\r\\n}\\r\\n\\r\\n/* Add some padding inside the card container */\\r\\n.container {\\r\\n  padding: 2rem;\\r\\n}\\r\\n\\r\\n.tasks-wrap {\\r\\n  justify-content: center;\\r\\n  align-items: center;\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  list-style: none;\\r\\n}\\r\\n\\r\\n.clear-btn {\\r\\n  width: 100%;\\r\\n  height: 60px;\\r\\n  background-color: rgba(250, 235, 215, 0.847);\\r\\n  justify-content: center;\\r\\n  align-items: center;\\r\\n  padding: 1rem;\\r\\n  border-color: #42fb0400;\\r\\n  box-shadow: rgba(100, 100, 100, 0.17) 0 -23px 25px 0 inset, rgba(105, 105, 105, 0.17) 0 -36px 30px 0 inset, rgba(113, 113, 113, 0.1) 0 -79px 40px 0 inset, rgba(48, 48, 48, 0.06) 0 2px 1px, rgba(60, 60, 60, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;\\r\\n  cursor: pointer;\\r\\n  font-family: Georgia, 'Times New Roman', Times, serif;\\r\\n  font-size: 14px;\\r\\n}\\r\\n\\r\\n.clear-btn:hover {\\r\\n  box-shadow: none;\\r\\n  background-color: rgba(247, 196, 171, 0.915);\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://to-do-list/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27100%25%27 height=%27100%25%27 viewBox=%270 0 1200 800%27%3E%3Cdefs%3E%3CradialGradient id=%27a%27 cx=%270%27 cy=%27800%27 r=%27800%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%23ffb05c%27/%3E%3Cstop offset=%271%27 stop-color=%27%23ffb05c%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27b%27 cx=%271200%27 cy=%27800%27 r=%27800%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%2337ff4c%27/%3E%3Cstop offset=%271%27 stop-color=%27%2337ff4c%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27c%27 cx=%27600%27 cy=%270%27 r=%27600%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%23a924ff%27/%3E%3Cstop offset=%271%27 stop-color=%27%23a924ff%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27d%27 cx=%27600%27 cy=%27800%27 r=%27600%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%23FDFF6E%27/%3E%3Cstop offset=%271%27 stop-color=%27%23FDFF6E%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27e%27 cx=%270%27 cy=%270%27 r=%27800%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%23FF4C49%27/%3E%3Cstop offset=%271%27 stop-color=%27%23FF4C49%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27f%27 cx=%271200%27 cy=%270%27 r=%27800%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%230CF%27/%3E%3Cstop offset=%271%27 stop-color=%27%230CF%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill=%27url%28%23a%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23b%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23c%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23d%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23e%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23f%29%27 width=%271200%27 height=%27800%27/%3E%3C/svg%3E */ \"data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27100%25%27 height=%27100%25%27 viewBox=%270 0 1200 800%27%3E%3Cdefs%3E%3CradialGradient id=%27a%27 cx=%270%27 cy=%27800%27 r=%27800%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%23ffb05c%27/%3E%3Cstop offset=%271%27 stop-color=%27%23ffb05c%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27b%27 cx=%271200%27 cy=%27800%27 r=%27800%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%2337ff4c%27/%3E%3Cstop offset=%271%27 stop-color=%27%2337ff4c%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27c%27 cx=%27600%27 cy=%270%27 r=%27600%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%23a924ff%27/%3E%3Cstop offset=%271%27 stop-color=%27%23a924ff%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27d%27 cx=%27600%27 cy=%27800%27 r=%27600%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%23FDFF6E%27/%3E%3Cstop offset=%271%27 stop-color=%27%23FDFF6E%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27e%27 cx=%270%27 cy=%270%27 r=%27800%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%23FF4C49%27/%3E%3Cstop offset=%271%27 stop-color=%27%23FF4C49%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3CradialGradient id=%27f%27 cx=%271200%27 cy=%270%27 r=%27800%27 gradientUnits=%27userSpaceOnUse%27%3E%3Cstop offset=%270%27 stop-color=%27%230CF%27/%3E%3Cstop offset=%271%27 stop-color=%27%230CF%27 stop-opacity=%270%27/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill=%27url%28%23a%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23b%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23c%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23d%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23e%29%27 width=%271200%27 height=%27800%27/%3E%3Crect fill=%27url%28%23f%29%27 width=%271200%27 height=%27800%27/%3E%3C/svg%3E\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"\\r\\nbody {\\r\\n  font-family: Georgia, 'Times New Roman', Times, serif;\\r\\n  font-size: 16px;\\r\\n  background-color: #fdff6e;\\r\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\r\\n  background-attachment: fixed;\\r\\n  background-size: cover;\\r\\n}\\r\\n\\r\\n.card {\\r\\n  /* Add shadows to create the \\\"card\\\" effect */\\r\\n  box-shadow: 10px 20px 20px 10px rgba(10, 10, 10, 0.2);\\r\\n  transition: 0.3s;\\r\\n  width: 60%;\\r\\n  border-radius: 9px;\\r\\n  z-index: 9999;\\r\\n  background-color: rgb(245, 245, 245);\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n \\r\\n}\\r\\n\\r\\n/* On mouse-over, add a deeper shadow */\\r\\nli {\\r\\n  box-shadow: rgba(202, 201, 201, 0.4) 0 30px 90px;\\r\\n  height: 1rem;\\r\\n  padding: 1rem;\\r\\n  border: 1px solid rgb(245, 245, 245);\\r\\n  display: flex;\\r\\n  justify-content: space-between;\\r\\n}\\r\\n/* li:hover {\\r\\n  transform: scale(1.05);\\r\\n  transition-duration: 0.5s;\\r\\n  background-color:  sandybrown;\\r\\n  border-radius: 9px;\\r\\n} */\\r\\n.add-new {\\r\\n  background-color: rgba(241, 241, 241, 0.847);\\r\\n  height: 2rem;\\r\\n  margin: 1rem 2rem;\\r\\n  border: #f00;\\r\\n  padding: 0.5rem;\\r\\n  border-radius: 5px;\\r\\n  box-shadow: rgba(0, 0, 0, 0.18) 0 2px 4px;\\r\\n  width: 50%;\\r\\n}\\r\\n.add-new:hover {\\r\\n  transform: scale(1.05);\\r\\n  transition-duration: 0.5s;\\r\\n}\\r\\ninput{\\r\\n  color: gray;\\r\\n}\\r\\n.inputs{\\r\\n  display: flex;\\r\\n  align-items: center;\\r\\n}\\r\\n.add-new-btn{\\r\\n  background-color: rgb(255, 205, 138);\\r\\n  border-color: #42fb0400;\\r\\n  cursor: pointer;\\r\\n  font-family: Georgia, 'Times New Roman', Times, serif;\\r\\n  font-size: 14px;\\r\\n  border-radius: 9px;\\r\\n  width: 20%;\\r\\n  height: 50px;\\r\\n  color: black;\\r\\n}\\r\\n.add-new-btn:hover {\\r\\n  box-shadow: none;\\r\\n  background-color: sandybrown;\\r\\n\\r\\n}\\r\\n/* Add some padding inside the card container */\\r\\n.container {\\r\\n  padding: 2rem;\\r\\n\\r\\n}\\r\\n#edit-icon{\\r\\n  font-size: 18px;\\r\\n  padding-right: 10px;\\r\\n  cursor: pointer;\\r\\n  \\r\\n}\\r\\n#edit-icon:hover{\\r\\n  transform: scale(2.06);\\r\\n  transition-duration: 0.5s;\\r\\n  \\r\\n}\\r\\n#trash-icon{\\r\\n  font-size: 18px; \\r\\n  cursor: pointer;\\r\\n}\\r\\n#trash-icon:hover{\\r\\n  transform: scale(2.06);\\r\\n  transition-duration: 0.5s;\\r\\n}\\r\\n.tasks-wrap {\\r\\n  justify-content: center;\\r\\n  align-items: center;\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  list-style: none;\\r\\n}\\r\\n\\r\\n.clear-btn {\\r\\n  width: 100%;\\r\\n  height: 60px;\\r\\n  background-color: rgb(255, 205, 138);\\r\\n  justify-content: center;\\r\\n  align-items: center;\\r\\n  padding: 1rem;\\r\\n  border-color: #42fb0400;\\r\\n  cursor: pointer;\\r\\n  font-family: Georgia, 'Times New Roman', Times, serif;\\r\\n  font-size: 14px;\\r\\n  border-radius: 9px;\\r\\n}\\r\\n\\r\\n.clear-btn:hover {\\r\\n  box-shadow: none;\\r\\n  background-color: sandybrown;\\r\\n\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://to-do-list/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -126,7 +125,17 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\nconst tasks = [\n  {\n    index: 0,\n    description: 'First task',\n    completed: true,\n  },\n  {\n    index: 1,\n    description: 'Second task',\n    completed: true,\n  },\n  {\n    index: 2,\n    description: 'Third task',\n    completed: true,\n  },\n];\n\nconst displyList = () => {\n  let result = '';\n  tasks.forEach((task) => {\n    result += `<li><input type=\"checkbox\" id=\"\" name=\"\" value=\"\"> ${task.description}</li> <hr>`;\n  });\n  document.getElementById('tasks').innerHTML = result;\n};\n\ndisplyList();\n\n\n//# sourceURL=webpack://to-do-list/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"getFromLocalStorage\": () => (/* binding */ getFromLocalStorage)\n/* harmony export */ });\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_add_task_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/add-task.js */ \"./src/modules/add-task.js\");\n\r\n\r\nconst addInput = document.querySelector('.add-new');\r\nconst addBtn = document.querySelector('.add-new-btn');\r\n\r\n\r\n\r\n\r\naddBtn.addEventListener('click',()=>{\r\nif (addInput.value !== \"\"){\r\n  (0,_modules_add_task_js__WEBPACK_IMPORTED_MODULE_1__.addTaskToArray)(addInput.value);\r\n  addInput.value = \"\";\r\n}\r\n})\r\n\r\n// const addTaskToArray =(taskText)=>{\r\n// const task = {\r\n//   id: Date.now(),\r\n//   description: taskText,\r\n//   complated: false,\r\n// };\r\n// tasksArr.push(task);\r\n// displyList(tasksArr);\r\n// //add data to local storage from array of tasks\r\n// addToLocalStorage(tasksArr)\r\n// }\r\n\r\n// const displyList =(tasksArr)=> {\r\n//   let result = '';\r\n//   tasksArr.forEach((task) => {\r\n//     result += `<li><div><input type=\"checkbox\" id=\"\" name=\"\" value=\"\"> ${task.description}</div>\r\n//     <div>\r\n//     <i id=\"edit-icon\" class=\"fa-solid fa-pen-to-square\"></i>\r\n//     <i id=\"trash-icon\" class=\"fa-solid fa-trash-can\"></i>\r\n//     </div>\r\n//     </li> <hr>`;\r\n//   });\r\n//   document.getElementById('tasks').innerHTML = result;\r\n// };\r\n\r\n\r\n\r\nconst getFromLocalStorage=()=> {\r\n  let data = window.localStorage.getItem(\"tasks\");\r\n  if (data) {\r\n    let tasks = JSON.parse(data);\r\n    displyList(tasks)\r\n  }\r\n}\r\n\r\n\r\n// function getdatafromlocalstorage(){\r\n//   let data =  window.localStorage.getItem(\"tasks\");\r\n//   if (data) {\r\n//   tasksArr = JSON.parse(data);\r\n//   addTaskToArray(tasksArr);\r\n//   }\r\n// }\r\n\r\n\n\n//# sourceURL=webpack://to-do-list/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/add-task.js":
+/*!*********************************!*\
+  !*** ./src/modules/add-task.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"addTaskToArray\": () => (/* binding */ addTaskToArray),\n/* harmony export */   \"addToLocalStorage\": () => (/* binding */ addToLocalStorage),\n/* harmony export */   \"displyList\": () => (/* binding */ displyList)\n/* harmony export */ });\n\r\n\r\nlet tasksArr =[];\r\n\r\nif (localStorage.getItem(\"tasks\")) {\r\n  tasksArr = JSON.parse(localStorage.getItem(\"tasks\"));\r\n}\r\n\r\ngetFromLocalStorage();\r\n\r\nconst addTaskToArray =(taskText)=>{\r\n  const task = {\r\n    id: Date.now(),\r\n    description: taskText,\r\n    complated: false,\r\n  };\r\n  tasksArr.push(task);\r\n  displyList(tasksArr);\r\n  //add data to local storage from array of tasks\r\n  addToLocalStorage(tasksArr)\r\n  }\r\n  \r\n  const displyList =(tasksArr)=> {\r\n    let result = '';\r\n    tasksArr.forEach((task) => {\r\n      result += `<li><div><input type=\"checkbox\" id=\"\" name=\"\" value=\"\"> ${task.description}</div>\r\n      <div>\r\n      <i id=\"edit-icon\" class=\"fa-solid fa-pen-to-square\"></i>\r\n      <i id=\"trash-icon\" class=\"fa-solid fa-trash-can\"></i>\r\n      </div>\r\n      </li> <hr>`;\r\n    });\r\n    document.getElementById('tasks').innerHTML = result;\r\n  };\r\n  const addToLocalStorage=(tasksArr)=> {\r\n    window.localStorage.setItem(\"tasks\",JSON.stringify(tasksArr))\r\n    }\r\n\n\n//# sourceURL=webpack://to-do-list/./src/modules/add-task.js?");
 
 /***/ }),
 
@@ -140,113 +149,9 @@ eval("module.exports = \"data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/20
 
 /***/ })
 
-/******/ 	});
-/************************************************************************/
-/******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
-/******/ 	
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/ 		// Check if module is in cache
-/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
-/******/ 		if (cachedModule !== undefined) {
-/******/ 			return cachedModule.exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			id: moduleId,
-/******/ 			// no module.loaded needed
-/******/ 			exports: {}
-/******/ 		};
-/******/ 	
-/******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
-/******/ 	
-/************************************************************************/
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"main": 0
-/******/ 		};
-/******/ 		
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		// no on chunks loaded
-/******/ 		
-/******/ 		// no jsonp function
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/nonce */
-/******/ 	(() => {
-/******/ 		__webpack_require__.nc = undefined;
-/******/ 	})();
-/******/ 	
-/************************************************************************/
-/******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
-/******/ 	
-/******/ })()
-;
+},
+/******/ __webpack_require__ => { // webpackRuntimeModules
+/******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+/******/ var __webpack_exports__ = (__webpack_exec__("./src/index.js"));
+/******/ }
+]);

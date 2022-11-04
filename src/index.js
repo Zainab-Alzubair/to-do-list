@@ -1,29 +1,14 @@
 import './style.css';
+/* eslint-disable import/no-cycle */
+import { displayTasks } from './modules/display-task.js';
+// Initial References
+export const newTaskInput = document.querySelector('#new-task input');
 
-const tasks = [
-  {
-    index: 0,
-    description: 'First task',
-    completed: true,
-  },
-  {
-    index: 1,
-    description: 'Second task',
-    completed: true,
-  },
-  {
-    index: 2,
-    description: 'Third task',
-    completed: true,
-  },
-];
-
-const displyList = () => {
-  let result = '';
-  tasks.forEach((task) => {
-    result += `<li><input type="checkbox" id="" name="" value=""> ${task.description}</li> <hr>`;
+// Disable Edit Button
+export const disableButtons = (bool) => {
+  const editButtons = document.getElementsByClassName('edit');
+  Array.from(editButtons).forEach((element) => {
+    element.disabled = bool;
   });
-  document.getElementById('tasks').innerHTML = result;
 };
-
-displyList();
+displayTasks();
