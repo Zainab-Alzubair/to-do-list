@@ -3,6 +3,7 @@ import { removeTask, updateStorage } from './localStorage.js';
 import { disableButtons, newTaskInput } from '../index.js';
 
 export const tasksDiv = document.querySelector('#tasks');
+const clearTasks = document.querySelector('.clear-btn');
 let deleteTasks; let editTasks;
 let count;
 let updateNote = '';
@@ -23,6 +24,7 @@ export const displayTasks = () => {
   tasks.forEach((key) => {
     // Get all values
     const value = localStorage.getItem(key);
+
     const taskInnerDiv = document.createElement('div');
     taskInnerDiv.classList.add('task');
     taskInnerDiv.setAttribute('id', key);
@@ -82,6 +84,21 @@ export const displayTasks = () => {
     });
   });
 };
+// clear all checked tasks
+clearTasks.addEventListener('click', (e) => {
+  count = Object.keys(localStorage).length;
+  e.stopPropagation();
+  const tasks1 = document.querySelectorAll('.task');
+  tasks1.forEach((element) => {
+    // local storage update
+    if (element.classList.contains('completed')) {
+      removeTask(element.id);
+      element.remove();
+      count -= 1;
+    }
+  });
+});
+
 // Function on window load
 window.onload = () => {
   updateNote = '';

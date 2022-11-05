@@ -22,10 +22,15 @@ body {
 .container {
   width: 90%;
   max-width: 34em;
-  position: absolute;
-  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.time {
+  margin: auto;
+  display: flex;
 }
 
 #new-task {
@@ -137,12 +142,13 @@ body {
 }
 
 .clear-btn {
-  width: 100%;
+  width: 50%;
   height: 60px;
-  background-color: rgb(255, 205, 138);
+  background-color: rgb(249, 117, 41);
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  color: #fff;
   border-color: #42fb0400;
   cursor: pointer;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -152,5 +158,6 @@ body {
 
 .clear-btn:hover {
   box-shadow: none;
+  color: #111;
   background-color: sandybrown;
 }
